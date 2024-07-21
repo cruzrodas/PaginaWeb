@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/Home.html">Inicio</a></li>
+                <li><a href="/España.html">Informacion de España</a></li>
+                <li><a href="/Inglatera.html">Informacion de Inglaterra</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <center>
+    <h1>Solicitud de contactos</h1>
+    <br>
+    <h2>Formulario de Contacto</h2>
+    <form action="tu-script-de-servidor" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="asunto">Asunto:</label><br>
+        <input type="text" id="asunto" name="asunto" required><br><br>
+        
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    <h1 class="titulo">Video de agradecimiento</h1>
+    <iframe name="marco1" class="marco"></iframe>
+    <div class="centrar">
+        <a href="https://youtu.be/0acgpCo6HFc?si=PV7Gr0wMix7rbo8l" target="marco1" class="boton">Cargar video</a>
+    </div>
+    <br>
+    <p>Muchas gracias por su atencion</p>
+    <form action="https://youtu.be/0acgpCo6HFc?si=PV7Gr0wMix7rbo8l" target="_blank">
+        <button type="submit">Gracias</button>
+    </form>
+</center>
+    <footer>
+        <center>
+       <p>2024 Mi Página Web. Todos los derechos reservados.</p>
+       <img src="/img/negro.jpeg" alt="" width="300" height="200">
+        </center>
+   </footer>
+</body>
+</html>
